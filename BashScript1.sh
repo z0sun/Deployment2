@@ -22,4 +22,4 @@ if [ "$(date +\%A)" == "Friday" ] && [ "$(date +\%H)" == "23" ]; then
 else
     echo "Today is not Friday at 11 pm. Exiting."
 
-#Most of this was written with the help of chatGPT. I don't quite have a grasp on subsitutions, wildcards, etc.
+#Most of this was written with the help of chatGPT. I don't quite have a grasp on substitutions, wildcards, etc.
