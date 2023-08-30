@@ -10,7 +10,7 @@ sudo apt update && sudo apt upgrade
  
 #Create file containing the list of upgradable packages
 
-sudo apt update > 08.30.23.txt 
+sudo apt update > "$(date +"%m.%d.%y").txt"
 
 #I was slightly confused at this part above
 # I also attempted to write it out as sudo apt update > "$(date).txt" which gave me exact date but not in the structured format I was looking for.
